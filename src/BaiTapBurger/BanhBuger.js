@@ -16,7 +16,7 @@ class BanhBuger extends Component {
   render() {
     return (
       <div>
-         <h4 className='text-center burger'>Banh burger cua ban</h4>
+         <h3 className='text-center text-warning burger'>Bánh burger của bạn</h3>
             <div className='breadTop'></div>
             {this.renderBreadMid()}
             <div className='breadBottom'></div>

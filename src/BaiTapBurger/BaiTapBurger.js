@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './BaiTapBurger.css';
 import BanhBuger from './BanhBuger';
+import MenuBurger from './MenuBurger';
 
 export default class BaiTapBurger extends Component {
   render() {
@@ -11,7 +12,9 @@ export default class BaiTapBurger extends Component {
           <div className='col-7'>
            <BanhBuger/>
           </div>
-          <div className='col-5'></div>
+          <div className='col-5'>
+            <MenuBurger/>
+          </div>
         </div>
       </div>
     )
